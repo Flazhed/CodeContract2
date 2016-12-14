@@ -4,3 +4,13 @@ E:\Visual Studio Projects\MSMQEx\ContractAssignment2\ContractAssignment2\bin\Deb
 E:\Visual Studio Projects\MSMQEx\ContractAssignment2\ContractAssignment2\obj\Debug\ContractAssignment2.csprojResolveAssemblyReference.cache
 E:\Visual Studio Projects\MSMQEx\ContractAssignment2\ContractAssignment2\obj\Debug\ContractAssignment2.exe
 E:\Visual Studio Projects\MSMQEx\ContractAssignment2\ContractAssignment2\obj\Debug\ContractAssignment2.pdb
+D:\Projekter\C#\CodeContract2\ContractAssignment2\bin\Debug\ContractAssignment2.exe.config
+D:\Projekter\C#\CodeContract2\ContractAssignment2\obj\Debug\ContractAssignment2.exe
+D:\Projekter\C#\CodeContract2\ContractAssignment2\obj\Debug\ContractAssignment2.pdb
+D:\Projekter\C#\CodeContract2\ContractAssignment2\bin\Debug\ContractAssignment2.exe
+D:\Projekter\C#\CodeContract2\ContractAssignment2\bin\Debug\ContractAssignment2.pdb
+D:\Projekter\C#\CodeContract2\ContractAssignment2\obj\Debug\ContractAssignment2.csprojResolveAssemblyReference.cache
+D:\Projekter\C#\CodeContract2\ContractAssignment2\obj\Debug\Decl\ContractAssignment2.exe
+D:\Projekter\C#\CodeContract2\ContractAssignment2\obj\Debug\Decl\ContractAssignment2.pdb
+D:\Projekter\C#\CodeContract2\ContractAssignment2\obj\Debug\CodeContractAnalysisRun.log
+D:\Projekter\C#\CodeContract2\ContractAssignment2\obj\Debug\ContractAssignment2.rewritten
