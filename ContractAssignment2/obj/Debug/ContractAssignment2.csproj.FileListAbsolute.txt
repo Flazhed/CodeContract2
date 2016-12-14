@@ -1,0 +1,6 @@
+E:\Visual Studio Projects\MSMQEx\ContractAssignment2\ContractAssignment2\bin\Debug\ContractAssignment2.exe.config
+E:\Visual Studio Projects\MSMQEx\ContractAssignment2\ContractAssignment2\bin\Debug\ContractAssignment2.exe
+E:\Visual Studio Projects\MSMQEx\ContractAssignment2\ContractAssignment2\bin\Debug\ContractAssignment2.pdb
+E:\Visual Studio Projects\MSMQEx\ContractAssignment2\ContractAssignment2\obj\Debug\ContractAssignment2.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\MSMQEx\ContractAssignment2\ContractAssignment2\obj\Debug\ContractAssignment2.exe
+E:\Visual Studio Projects\MSMQEx\ContractAssignment2\ContractAssignment2\obj\Debug\ContractAssignment2.pdb
