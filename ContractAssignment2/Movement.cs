@@ -23,5 +23,11 @@ namespace ContractAssignment2
             target.AddCredit(this);
             source.AddDebit(this);
         }
+
+        public override string ToString()
+        {
+            return $"Movement: {Amount}kr. from {Target} to {Source}";
+        }
+
     }
 }

@@ -14,10 +14,10 @@ namespace ContractAssignment2
         public List<Movement> Debits { get; }
         public List<Movement> Credits { get; }
 
-        public Account(int number)
+        public Account(int number, double balance)
         {
             this.Number = number;
-            this.Balance = 0;
+            this.Balance = balance;
             this.Debits = new List<Movement>();
             this.Credits = new List<Movement>();
         }
@@ -40,15 +40,19 @@ namespace ContractAssignment2
             this.Balance += credit.Amount;
         }
 
-        //////Throws exceptions every time
-        //[ContractInvariantMethod]
-        //private void Invariant()
-        //{
-        //    Contract.Invariant(this.Balance >= 0);
-        //}
+        [ContractInvariantMethod]
+        private void Invariant()
+        {
+            Contract.Invariant(this.Balance >= 0);
+        }
 
         public class AccountException : Exception
         {
+        }
+
+        public override string ToString()
+        {
+            return "account " + Number;
         }
     }
 }

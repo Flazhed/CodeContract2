@@ -44,8 +44,11 @@ namespace ContractAssignment2
             new Movement(amount, target, source);
         }
 
-        public void MakeStatement(Customer customer, Account account)
+        public IEnumerable<Movement> MakeStatement(Customer customer, Account account)
         {
+            Contract.Requires(customer.Accounts.Contains(account));
+
+            return account.Debits.Concat(account.Credits);
         }
 
         [ContractInvariantMethod]
@@ -69,7 +72,7 @@ namespace ContractAssignment2
 
             return sum;
         }
-
+       
         public class TransactionException : Exception
         {
             public TransactionException()
