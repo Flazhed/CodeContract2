@@ -41,6 +41,7 @@ namespace ContractAssignment2
             bank.Move(200.00, acc1, acc2);
             bank.Move(100.00, acc2, acc1);
 
+
             Console.ReadKey();
 
         }

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics.Contracts;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,7 +14,7 @@ namespace ContractAssignment2
         private string Name { get; set; }
         private List<Customer> Customers { get; }
         private List<Account> Accounts { get; }
-
+        
         public Bank(string name)
         {
             this.Name = name;
@@ -49,8 +51,23 @@ namespace ContractAssignment2
         [ContractInvariantMethod]
         private void Invariant()
         {
-            //Hansen do magic
-            Contract.Invariant(1 == 1);
+
+            Contract.Invariant(0 == DoubleBookKeeping());
+        }
+
+
+        private double DoubleBookKeeping()
+        {
+            double sum = 0;
+
+            foreach (var account in Accounts)
+            {
+                sum -= account.Debits.Sum(x => x.Amount);
+                sum += account.Credits.Sum(x => x.Amount);
+            }
+
+
+            return sum;
         }
 
         public class TransactionException : Exception

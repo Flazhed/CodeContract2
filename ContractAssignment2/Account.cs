@@ -40,7 +40,7 @@ namespace ContractAssignment2
             this.Balance += credit.Amount;
         }
 
-        //Throws exceptions every time 
+        //////Throws exceptions every time
         //[ContractInvariantMethod]
         //private void Invariant()
         //{
